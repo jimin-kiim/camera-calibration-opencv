@@ -1,5 +1,5 @@
 
-## Checkboard images 🏁 for testing the image calibration.
+## sample Checkboard images 🏁 for image calibration.
 
 they are from... 
 ### source: 
