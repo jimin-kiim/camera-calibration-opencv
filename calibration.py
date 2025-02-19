@@ -58,10 +58,7 @@ if ret == True:
     x, y, w, h = roi
     dst = dst[y:y+h, x:x+w]
     outputpath = f"output/{imgname}"
-    cv.imwrite(outputpath, dst)
-
-    outputimg = cv.imread(outputpath)
-    cv.imshow(window_name, outputimg)
+    cv.imshow(window_name, dst)
     cv.waitKey(0)
 
     cv.destroyAllWindows()
