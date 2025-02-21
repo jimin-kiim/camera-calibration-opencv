@@ -1,5 +1,27 @@
 # camera-calibration
 
+<style>
+  calibration {
+    display: flex;
+    flex-direction: row;
+  }
+
+  img {
+    margin: 10px;
+  }
+</style>
+
+<calibration>
+  <img src = "./asset/0212_camera.jpg" width = 50%/>
+  <p>
+    Cameras capture the 3D world and record the view into a 2D image, called frame in video. 
+    </br></br>
+    While converting the dimesion, distortion occurs and to correct it, we use 'calibration', getting camera matrix and distortion coefficients. And undistort the images with them.
+    </br></br>
+    This Repository contains the source codes for camera calibration and image undistortion using OpenCV.
+  </p>
+</calibration>
+
 ## Installation
 
 ### 1. Install the packages from the `requirements.txt`
