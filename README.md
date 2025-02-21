@@ -1,5 +1,12 @@
 ## Camera Calibration
 
+<p align="center">
+  <img src="./asset/0212_camera.jpg" width="40%">
+</p>
+
+##### <p align="center">Figure 1: Camera, generated with Leonardo.ai</p>
+###### prompt: On the left side, a person is staring at the sky and the sky is full of stars and also the Saturn is there. And the chair and trees are, too. And a 3D coordinate system axes are passing through the view. The three axes, x, y, and z should be all shown. Following one of the axes, there's a camera. Starting from the point where the camera is, the view is converted to a 2D world. There should be a coordinate system representation including 2 axes. On the right side, where axes for 2D are, the image frames are flying and piled up.
+
   Cameras capture the 3D world and record the view into a 2D image, also called frame in video. 
   <br>
   While converting the dimesion, distortion occurs and to correct it, we use 'calibration'. It's getting camera matrix and distortion coefficients, necessary for undistortion process.
@@ -47,14 +54,3 @@ run the final cell of the `ipynb file` or execute the `py file`.
 #### 3. to record a video with a camera
 - source code: `video_recording.py`
 - source code with comments to understand the process: `video_recording.ipynb`
-
-
-<br><br><br><br><br><br><br><br>
-
-<p align="center">
-  <img src="./asset/0212_camera.jpg" width="30%">
-</p>
-
-##### <p align="center">Figure 1: Camera, generated with Leonardo.ai</p>
-###### prompt: On the left side, a person is staring at the sky and the sky is full of stars and also the Saturn is there. And the chair and trees are, too. And a 3D coordinate system axes are passing through the view. The three axes, x, y, and z should be all shown. Following one of the axis, there's a camera. Starting from the point where the camera is, the view is converted to a 2D world. There should be a coordinate system representation including 2 axes. On the right side, where the 2D axes is, the image frames are flying and piled up.
-
