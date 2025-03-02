@@ -1,5 +1,10 @@
 ## Camera Calibration
 
+##### About Camera and Camera Calibration
+reference)
+https://3dvision.princeton.edu/courses/COS429/2015fa/slides/02_camera/
+https://3dvision.princeton.edu/courses/COS429/2015fa/slides/02_camera/
+
 <p align="center">
   <img src="./asset/0212_camera.jpg" width="40%">
 </p>
